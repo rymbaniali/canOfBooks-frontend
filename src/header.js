@@ -15,8 +15,8 @@ class Header extends React.Component {
         <Navbar.Brand>My Favorite Books</Navbar.Brand>
           <Link to="/">Home</Link>
           <Link to="/profile">Profile</Link>
-         
-          {isAuthenticated? <LogoutButton/>:<LoginButton/>}
+        
+          {isAuthenticated ===true? <LogoutButton/>:<LoginButton/>}
           
       </Navbar>
     )
