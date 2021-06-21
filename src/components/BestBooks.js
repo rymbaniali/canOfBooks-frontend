@@ -39,9 +39,9 @@ export class BestBooks extends Component {
                     this.state.books.map((val, id) => {
                         return (
                             <div key={id}>
-                                <p>{val.name}</p>
-                                <p>{val.description}</p>
-                                <p>{val.status}</p>
+                                <p>Name :{val.name}</p>
+                                <p>Description :{val.description}</p>
+                                <p>status : {val.status}</p>
                             </div>
                         )
                     })
