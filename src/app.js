@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header';
 import IsLoadingAndError from './IsLoadingAndError';
 import Footer from './footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Router>
           <IsLoadingAndError>
             <Header />
+
             <Switch>
               <Route exact path="/">
 
